@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="Reshape_2/shape" out_port_id="0"/>
+		<IR id="31" name="Reshape_2/Cast_11889_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="previous_state_c" out_port_id="0"/>
+		<IR id="34" name="previous_state_c" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Minimum_3" out_port_id="0"/>
+		<IR id="51" name="Minimum_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Minimum" out_port_id="0"/>
+		<IR id="16" name="Minimum" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/GatherNd" out_port_id="0"/>
+		<IR id="35" name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/BlockLSTM/TensorIterator" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="Minimum_3/y" out_port_id="0"/>
+		<IR id="50" name="Minimum_3/y/EltwiseUnsqueeze965_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BiasAdd_2" out_port_id="0"/>
+		<IR id="27" name="BiasAdd_2/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="MatMul_4" out_port_id="0"/>
+		<IR id="53" name="MatMul_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Minimum_1/y" out_port_id="0"/>
+		<IR id="22" name="Minimum_1/y/EltwiseUnsqueeze957_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer_2/weights/read" out_port_id="0"/>
+		<IR id="17" name="MatMul_1/1_port_transpose1297_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="previous_state_h" out_port_id="0"/>
+		<IR id="33" name="previous_state_h" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Minimum_1" out_port_id="0"/>
+		<IR id="23" name="Minimum_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Minimum/y" out_port_id="0"/>
+		<IR id="15" name="Minimum/y/EltwiseUnsqueeze953_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="transpose/perm" out_port_id="0"/>
+		<IR id="1" name="transpose/Cast_11899_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Minimum_2/y" out_port_id="0"/>
+		<IR id="29" name="Minimum_2/y/EltwiseUnsqueeze961_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Relu_1" out_port_id="0"/>
+		<IR id="21" name="Relu_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Relu_2" out_port_id="0"/>
+		<IR id="28" name="Relu_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MatMul_2" out_port_id="0"/>
+		<IR id="25" name="MatMul_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_3/shape" out_port_id="0"/>
+		<IR id="44" name="layer_5/weights/read/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="transpose" out_port_id="0"/>
+		<IR id="2" name="transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="layer_6/weights/read" out_port_id="0"/>
+		<IR id="52" name="MatMul_4/1_port_transpose1301_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/mul" out_port_id="0"/>
+		<IR id="35" name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/BlockLSTM/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="layer_2/bias/read" out_port_id="0"/>
+		<IR id="19" name="layer_2/bias/read/EltwiseUnsqueeze981_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MatMul_1" out_port_id="0"/>
+		<IR id="18" name="MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BiasAdd_3" out_port_id="0"/>
+		<IR id="48" name="BiasAdd_3/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_2" out_port_id="0"/>
+		<IR id="32" name="Reshape_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="MatMul_3" out_port_id="0"/>
+		<IR id="46" name="MatMul_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_3" out_port_id="0"/>
+		<IR id="45" name="Reshape_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="layer_3/weights/read" out_port_id="0"/>
+		<IR id="24" name="MatMul_2/1_port_transpose1305_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BiasAdd" out_port_id="0"/>
+		<IR id="13" name="BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="layer_6/bias/read" out_port_id="0"/>
+		<IR id="54" name="layer_6/bias/read/EltwiseUnsqueeze977_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BiasAdd_4" out_port_id="0"/>
+		<IR id="55" name="BiasAdd_4/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="layer_1/weights/read" out_port_id="0"/>
+		<IR id="4" name="MatMul/1_port_transpose1293_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer_1/bias/read" out_port_id="0"/>
+		<IR id="12" name="layer_1/bias/read/EltwiseUnsqueeze969_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Reshape_1" out_port_id="0"/>
+		<IR id="10" name="Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Relu_3" out_port_id="0"/>
+		<IR id="49" name="Relu_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/GatherNd_1" out_port_id="0"/>
+		<IR id="35" name="cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/BlockLSTM/TensorIterator" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="input_node" out_port_id="0"/>
+		<IR id="0" name="input_node" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="raw_logits/shape" out_port_id="0"/>
+		<IR id="56" name="raw_logits/Cast_11897_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer_3/bias/read" out_port_id="0"/>
+		<IR id="26" name="layer_3/bias/read/EltwiseUnsqueeze985_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Minimum_2" out_port_id="0"/>
+		<IR id="30" name="Minimum_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Relu" out_port_id="0"/>
+		<IR id="14" name="Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="raw_logits" out_port_id="0"/>
+		<IR id="57" name="raw_logits" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="logits" out_port_id="0"/>
+		<IR id="58" name="logits" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer_5/weights/read" out_port_id="0"/>
+		<IR id="39" name="MatMul_3/1_port_transpose1309_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MatMul" out_port_id="0"/>
+		<IR id="11" name="MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_1/shape" out_port_id="0"/>
+		<IR id="9" name="layer_1/weights/read/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BiasAdd_1" out_port_id="0"/>
+		<IR id="20" name="BiasAdd_1/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="layer_5/bias/read" out_port_id="0"/>
+		<IR id="47" name="layer_5/bias/read/EltwiseUnsqueeze973_const" out_port_id="1"/>
+	</map>
+</mapping>
